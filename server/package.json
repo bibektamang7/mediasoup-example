@@ -1,0 +1,23 @@
+{
+	"name": "mediasoup-example",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node-dev --respawn --transpile-only server.ts",
+		"start": "node dist/server.js",
+		"clean": "rm -rf dist",
+		"build": "tsc -b"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^5.1.0",
+		"mediasoup": "^3.16.4",
+		"socket.io": "^4.8.1"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.3"
+	}
+}
