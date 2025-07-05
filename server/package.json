@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "ts-node-dev --respawn --transpile-only server.ts",
-		"start": "node dist/server.js",
+		"start": "node dist/anotherserver.js",
 		"clean": "rm -rf dist",
 		"build": "tsc -b"
 	},
@@ -15,9 +15,12 @@
 	"dependencies": {
 		"express": "^5.1.0",
 		"mediasoup": "^3.16.4",
-		"socket.io": "^4.8.1"
+		"socket.io": "^4.8.1",
+		"uuid": "^11.1.0",
+		"ws": "^8.18.3"
 	},
 	"devDependencies": {
-		"@types/express": "^5.0.3"
+		"@types/express": "^5.0.3",
+		"@types/ws": "^8.18.1"
 	}
 }
