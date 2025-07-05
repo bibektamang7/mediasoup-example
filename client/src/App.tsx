@@ -1,14 +1,15 @@
 import { useState } from "react";
 import "./App.css";
-import VideoCall from "./components/VideoCall";
+// import VideoCall from "./components/VideoCall";
+import MediaSoupClient from "./components/AnotherCall";
 
 function App() {
-	const [count, setCount] = useState(0);
-
 	return (
 		<>
-			<VideoCall />
+			<MediaSoupClient />
+			<div>helol worldk</div>
 		</>
+
 	);
 }
 
